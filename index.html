@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <img src="./images/illustration-hero.svg" alt="hero image" class="card-hero">
+
+    <div class="card-content">
+      <h1 class="card-title">Order Summary</h1>
+      <p class="card-description">
+        You can now listen to millions of songs,
+        audiobooks, and podcasts on any device
+        anywhere you like!
+      </p>
+      <div class="wraper-subscription">
+          <div class="wraper-content">
+            <img src="./images/icon-music.svg" alt="icon music" class="card-subscription-image">
+            <div class="card-title">
+              <h2 class="card-plan-option">Annual Plan</h2>
+              <h3 class="card-plan-price">$5.99/year</h3>
+            </div>
+          </div>
+          <input type="button" class="card-plan-change" value="chance">
+      </div>
+    </div>
+    <div class="card-payment">
+      <input type="button" class="card-plan-payment" value="Proceed to Payment">
+      <input type="button" class="card-plan-cancel" value="Cancel order">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("./images/pattern-background-desktop.svg");
+}
+
+.card {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.card-hero {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-description {
+    padding-inline: 80px;
+    text-align: center;
+}
+
+.wraper-subscription {
+    display: flex;
+    background-color: rgb(235, 232, 232);
+    margin-inline: 60px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.wraper-content {
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-plan-option,
+.card-plan-price {
+    width: max-content;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.card-plan-payment,
+.card-plan-cancel,
+.card-plan-change {
+    all: unset;
+    width: 100%;
+    text-align: center;
+}
+
+.card-payment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-inline: 60px;
+}
+
+.card-plan-change {
+    color: blue;
+    text-decoration: underline;
+}
+
+.card-plan-payment {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card-plan-change:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-plan-payment:hover,
+.card-plan-cancel:hover {
+    cursor: pointer;
+}
