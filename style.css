@@ -1,7 +1,9 @@
 body {
-    display: flex;
-    justify-content: center;
-    background-image: url("./images/pattern-background-desktop.svg");
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
 }
 
 .card {
